@@ -15,9 +15,21 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="Controllers\" />
+    <None Remove="Models\" />
+    <None Remove="01 - Controllers\" />
+    <None Remove="02 - Services\" />
+    <None Remove="02 - Services\Interfaces\" />
+    <None Remove="ExternalServices\" />
+    <None Remove="ExternalServices\Interfaces\" />
+    <None Remove="01 - Controllers\Dtos\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <Folder Include="Models\" />
+    <Folder Include="01 - Controllers\" />
+    <Folder Include="02 - Services\" />
+    <Folder Include="02 - Services\Interfaces\" />
+    <Folder Include="ExternalServices\" />
+    <Folder Include="ExternalServices\Interfaces\" />
+    <Folder Include="01 - Controllers\Dtos\" />
   </ItemGroup>
 </Project>
