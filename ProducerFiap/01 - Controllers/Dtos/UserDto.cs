@@ -1,7 +1,6 @@
-﻿using System;
-namespace ProducerFiap.Controllers.Dtos
+﻿namespace ProducerFiap.Controllers.Dtos
 {
-	public class UserDto
+    public class UserDto
 	{
         public string UserName { get; set; } = null!;
 

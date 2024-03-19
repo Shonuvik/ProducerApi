@@ -1,11 +1,10 @@
-﻿using System;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using ProducerFiap.Controllers.Dtos;
 using ProducerFiap.Services.Interfaces;
 
 namespace ProducerFiap.Controllers
 {
-	[ApiController]
+    [ApiController]
 	[Route("{controller}/v1")]
 	public class UserController : ControllerBase
 	{

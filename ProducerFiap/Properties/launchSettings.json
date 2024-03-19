@@ -27,9 +27,9 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
         "ConnectionString": "",
-        "MQ__User": "",
-        "MQ__Password": "",
-        "MQ__Endpoint": ""
+        "User": "guest",
+        "Password": "guest",
+        "HostName": "http://localhost:15672/#/"
       },
       "dotnetRunMessages": true
     },

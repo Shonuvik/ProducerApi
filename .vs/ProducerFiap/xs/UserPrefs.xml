@@ -1,4 +1,42 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{817E3722-0799-439B-A58A-686DBEE4AE30}|https">
-  <MonoDevelop.Ide.ItemProperties.ProducerFiap PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProducerFiap/01 - Controllers/UserController.cs">
+    <Files>
+      <File FileName="ProducerFiap/Controllers/UserController.cs" Line="5" Column="1" />
+      <File FileName="ProducerFiap/Properties/launchSettings.json" Line="32" Column="18" />
+      <File FileName="ProducerFiap/02 - Services/UserService.cs" Line="9" Column="39" />
+      <File FileName="ProducerFiap/02 - Services/Interfaces/IUserService.cs" Line="8" Column="44" />
+      <File FileName="ProducerFiap/ExternalServices/ConnectionFactoryMQ.cs" Line="10" Column="52" />
+      <File FileName="ProducerFiap/ExternalServices/Interfaces/IConnectionFactoryMQ.cs" Line="6" Column="39" />
+      <File FileName="ProducerFiap/Models/User.cs" Line="6" Column="1" />
+      <File FileName="ProducerFiap/01 - Controllers/Dtos/UserDto.cs" Line="12" Column="1" />
+      <File FileName="ProducerFiap/Program.cs" Line="4" Column="40" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ProducerFiap">
+            <Node name="ProducerFiap">
+              <Node name="01 - Controllers" expanded="True">
+                <Node name="Dtos" expanded="True" />
+                <Node name="UserController.cs" selected="True" />
+              </Node>
+              <Node name="02 - Services" expanded="True" />
+              <Node name="ExternalServices" expanded="True">
+                <Node name="Interfaces" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.ProducerFiap PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MultiItemStartupConfigurations />
 </Properties>
