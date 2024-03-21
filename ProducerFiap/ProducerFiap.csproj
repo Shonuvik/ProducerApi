@@ -22,6 +22,7 @@
     <None Remove="ExternalServices\" />
     <None Remove="ExternalServices\Interfaces\" />
     <None Remove="01 - Controllers\Dtos\" />
+    <None Remove="Config\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -31,5 +32,6 @@
     <Folder Include="ExternalServices\" />
     <Folder Include="ExternalServices\Interfaces\" />
     <Folder Include="01 - Controllers\Dtos\" />
+    <Folder Include="Config\" />
   </ItemGroup>
 </Project>

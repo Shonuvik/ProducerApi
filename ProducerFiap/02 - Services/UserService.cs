@@ -20,9 +20,7 @@ namespace ProducerFiap.Services
 
 
         private User ParseToEntity(UserDto userDto)
-        {
-            return new User(userDto.UserName, userDto.Password, userDto.Email);
-        }
+            => new(userDto.UserName, userDto.Password, userDto.Email);
     }
 }
 

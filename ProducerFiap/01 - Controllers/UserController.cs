@@ -5,7 +5,7 @@ using ProducerFiap.Services.Interfaces;
 namespace ProducerFiap.Controllers
 {
     [ApiController]
-	[Route("{controller}/v1")]
+	[Route("User")]
 	public class UserController : ControllerBase
 	{
 		private readonly IUserService _userService;

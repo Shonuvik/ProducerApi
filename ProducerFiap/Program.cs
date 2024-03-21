@@ -1,4 +1,6 @@
-﻿using ProducerFiap.ExternalServices;
+﻿using Microsoft.Extensions.Options;
+using ProducerFiap.Config;
+using ProducerFiap.ExternalServices;
 using ProducerFiap.ExternalServices.Interfaces;
 using ProducerFiap.Services;
 using ProducerFiap.Services.Interfaces;
@@ -6,6 +8,8 @@ using ProducerFiap.Services.Interfaces;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.Configure<MQConfig>(builder.Configuration.GetSection("MQ"));
+
 builder.Services.AddScoped<IConnectionFactoryMQ, ConnectionFactoryMQ>();
 builder.Services.AddScoped<IUserService, UserService>();
 
